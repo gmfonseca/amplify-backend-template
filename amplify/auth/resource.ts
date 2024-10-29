@@ -9,4 +9,8 @@ export const auth = defineAuth({
     email: true,
     phone: true,
   },
+  multifactor: {
+    mode: 'OPTIONAL',
+    sms: true
+  }
 });
